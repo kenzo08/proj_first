@@ -1,0 +1,24 @@
+.login {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+}
+.login-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-buttonsContainer {
+    flex-wrap: wrap;
+    width: 110px;
+}
+.login-input {
+    margin-top: 10px;
+}
+.input-label {
+    margin-right: 5px;
+}
+.login-buttonsContainer button {
+    width: 74px;
+    margin-top: 5px;
+}

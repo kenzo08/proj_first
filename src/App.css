@@ -1,0 +1,88 @@
+*{
+	background-color: #eee;
+
+}
+.container-fluid {
+	display: flex;
+	flex-direction: column;
+}
+
+.App{
+	background-image: url('img/ob.jpg');
+	background-position: center;
+	height: 100vh;
+}
+.App-header{
+	width: 100%;
+	margin: 0 auto;
+}
+.header-brand{
+	font-size: 24pt;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.all{
+	width: 60%;
+	margin: 0 auto;
+	padding: 25px;
+	text-align: center;
+    border: 4px double black;
+}
+
+.userinfo{
+    border: 1px solid #bbb;
+    margin: 10px;
+}
+.userimage{
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+.userimage img{
+	width: 150px;
+	height: 150px;
+}
+
+.event_img{
+    border: 1px solid #bbb;
+	width: 150px;
+	height: 150px;
+}
+
+.eventImage{
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+.eventImage img{
+	width: 150px;
+	height: 150px;
+}
+
+.flexContainer {
+	display: flex;
+}
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.flex-around {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.flex-start {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.item {
+	margin-right: 5px;
+	align-self: center;
+}
+
+.itemInput {
+	margin-top: 5px;
+}
